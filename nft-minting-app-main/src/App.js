@@ -207,7 +207,7 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg alt={"example"} src={"/config/images/example.png"} />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -249,13 +249,13 @@ function App() {
             >
               <StyledButton
                 onClick={(e) => {
-                  window.open("/config/roadmap.pdf", "_blank");
+                  window.open("https://docs.google.com/document/d/1u_Jaazdp0ZFH4vIgG2FqcBotvD4SvxCgsaKFMsx2K7s/preview", "_blank");
                 }}
                 style={{
                   margin: "5px",
                 }}
               >
-                Roadmap
+                Whitepaper
               </StyledButton>
               <StyledButton
                 style={{
@@ -401,7 +401,7 @@ function App() {
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg
               alt={"example"}
-              src={"/config/images/example.gif"}
+              src={"/config/images/example2.png.png"}
               style={{ transform: "scaleX(-1)" }}
             />
           </s.Container>
